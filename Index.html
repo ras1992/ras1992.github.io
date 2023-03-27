@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="../css/10clase.css">
+
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <!-- link de bootstrap -->
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.7.2/font/bootstrap-icons.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+  <title>Porfolio: Kuspita Ramiro G.</title>
+  <link rel="icon" type="image/x-icon" href="../media/iconoK.ico" />
+</head>
+
+<body id="body">
+  <div id="particles-js"></div>
+  <header>
+    <nav class="navbar navbar-expand-lg nnvar ">
+      <div class="container-fluid">
+        <button id="btn_open" class="navbar-toggler borde" type="button" data-bs-toggle="collapse" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="24" height="24">
+            <path
+              d="M2.25 5.25H21.75V7.5H2.25V5.25ZM2.25 10.5H21.75V12.75H2.25V10.5ZM2.25 15.75H21.75V18H2.25V15.75Z" />
+          </svg>
+        </button>
+
+        <img id="cambio-estilo" class="icono" src="../media/iconoK.ico" type="button">
+
+        <button class="navbar-toggler borde" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="24" height="24">
+            <path
+              d="M2.25 5.25H21.75V7.5H2.25V5.25ZM2.25 10.5H21.75V12.75H2.25V10.5ZM2.25 15.75H21.75V18H2.25V15.75Z" />
+          </svg>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+
+          </ul>
+
+
+          <div class="dropstart btnEsp">
+            <button type="button" class="btn btn-secondary" data-bs-toggle="dropdown" aria-expanded="false" id="modal">
+              Iniciar Sesión
+            </button>
+
+            <div class="modal" tabindex="-1" id="Modal">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title">Login</h5>
+
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <small>@Ema:kuspita20@gmail.com Pass:1234</small>
+                    <br>
+                    <br>
+                    <form>
+                      <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="emailEntrada">
+                      </div>
+                      <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+                        <input type="password" class="form-control" id="claveEntrada">
+                      </div>
+                      <div class="acceso">
+                        <button class="btn btn-secondary" id="login">Ingresar</button>
+                        <a
+                          href="https://api.whatsapp.com/send/?phone=5493755501946&text=Hola%21+Necesito+ayuda%2C+olvid%C3%A9+mi+contrase%C3%B1a.&type=phone_number&app_absent=0">Olvide
+                          mi contraseña</a>
+                      </div>
+
+                    </form>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="modal" tabindex="-1" id="Modal1">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title">Usuario: Ramiro</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <form>
+                      <button type="button" class="btn btn-secondary" id="offline">
+                        <i class="bi bi-file-earmark"></i> Desconectarme
+                      </button>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </nav>
+
+
+  </header>
+
+  <menu>
+    <div class="menu__side" id="menu_side">
+
+      <div class="centrado fotoPerfil">
+
+        <img class="efectoFoto" src="../media/Perfil/Ramiro.png" alt="">
+
+      </div>
+      <div class="options__menu margenImagen">
+        <div class="maquina_escribir_anim centrado">
+        </div>
+
+        <div class="redes">
+          <a href="https://www.twitter.com/kuspitaramiro">
+            <img src="../media/Social/icons8-twitter-30.png" alt="">
+          </a>
+
+          <a href="https://www.facebook.com/kuspita20">
+            <img src="../media/Social/icons8-facebook-30.png" alt="">
+          </a>
+
+          <a href="https://www.instagram.com/kuspita20">
+            <img src="../media/Social/icons8-instagram-30.png" alt="">
+          </a>
+
+          <a href="https://github.com/ras1992">
+            <img src="../media/Social/icons8-github-30.png" alt="">
+          </a>
+        </div>
+
+        <div class="margen">
+          <div>
+            <button type="button" class="btn btn-secondary" id="volver" style="--i:1;">
+              <i class="bi bi-file-earmark"></i> Inicio
+            </button>
+          </div>
+
+
+          <div>
+            <button type="button" class="btn btn-secondary" id="datos" style="--i:2;">
+              <i class="bi bi-file-earmark"></i> Datos
+            </button>
+          </div>
+
+
+          <div>
+            <button type="button" class="btn btn-secondary" id="informacion" style="--i:3;">
+              <i class="bi bi-file-earmark"></i> Información
+            </button>
+          </div>
+
+          <div>
+            <button type="button" class="btn btn-secondary" id="contactar" style="--i:4;">
+              <i class="bi bi-file-earmark"></i> Contactar
+            </button>
+          </div>
+
+        </div>
+
+  </menu>
+
+  <main>
+    <div id="main">
+      <div id="main2">
+
+        <div class="animacion-bienvenida">
+          <h1 style="--i:5;">Bienvenido a mi portafolio</h1>
+          <p style="--i:6;">¡Hola! Me llamo Ramiro y soy <span id="texto-profesion"
+              class="texto-animado">Autodidacta</span><span id="texto-especialidad" class="texto-animado"></span>.</p>
+          <!-- <h7 style="--i:7;" class="h5 centrado">El valor del Dolar Blue hoy es de: <span id="dolarHoy"></span></h7> -->
+
+
+          <h3 class="centrado margen2 margenImagen" style="--i:8;">Sobre Mi</h3>
+          <p style="--i:9;">Me considero una persona proactiva, comprometida y con ganas de aprender cada día. Me
+            apasiona el mundo de la tecnología y me gusta mantenerme actualizado en las últimas tendencias y
+            herramientas del sector. Soy una persona organizada y metódica, que trabaja bien tanto en equipo como de
+            manera individual. Siempre busco dar lo mejor de mí en cada proyecto y estoy dispuesto a afrontar nuevos
+            retos y desafíos.</p>
+          <a style="--i:10;" onclick="cartaBtnF()" type="button">Carta de Presentación</a>
+
+          <h3 class="centrado margen2 margenImagen" style="--i:11;">Habilidades</h3>
+
+          <div class="marquee" style="--i:12;">
+            <ul class="marquee-content">
+              <li><i class="fab fa-github margen2"><img src="../media/Habilidades/HTML.svg" alt=""></i></li>
+              <li><i class="fab fa-github margen2"><img src="../media/Habilidades/css.svg" alt=""></i></li>
+              <li><i class="fab fa-github margen2"><img src="../media/Habilidades/JavaScript.svg" alt=""></i></li>
+              <li><i class="fab fa-github margen2"><img src="../media/Habilidades/Bootstrap.svg" alt=""></i></li>
+              <li><i class="fab fa-github margen2"><img src="../media/Habilidades/PHP-Dark.svg" alt=""></i></li>
+              <li><i class="fab fa-github margen2"><img src="../media/Habilidades/Python-Dark.svg" alt=""></i></li>
+              <li><i class="fab fa-github margen2"><img src="../media/Habilidades/QT-Dark.svg" alt=""></i></li>
+              <li><i class="fab fa-github margen2"><img src="../media/Habilidades/MySQL-Dark.svg" alt=""></i></li>
+              <li><i class="fab fa-github margen2"><img src="../media/Habilidades/Git.svg" alt=""></i></li>
+              <li><i class="fab fa-github margen2"><img src="../media/Habilidades/Github-Dark.svg" alt=""></i></li>
+              <li><i class="fab fa-github margen2"><img src="../media/Habilidades/CPP.svg" alt=""></i></li>
+              <li><i class="fab fa-github margen2"><img src="../media/Habilidades/Java-Light.svg" alt=""></i></li>
+              <li><i class="fab fa-github margen2"><img src="../media/Habilidades/Powershell-Dark.svg" alt=""></i></li>
+              <li><i class="fab fa-github margen2"><img src="../media/Habilidades/Bash-Dark.svg" alt=""></i></li>
+              <li><i class="fab fa-github margen2"><img src="../media/Habilidades/Discord.svg" alt=""></i></li>
+            </ul>
+          </div>
+          <h3 class="centrado margen2 margenImagen" style="--i:12;">Proyectos</h3>
+          <div class="contenedor" style="--i:12;">
+            <div class="card">
+              <div class="front">
+                <div class="detalles">
+                  
+                  <h6>Tarjeta</h6>
+                
+                </div>
+                <div class="imagen">
+                  <img src="../media/Proyectos/Card.jpg" alt="Imagen del producto">
+                </div>
+              </div>
+              <div class="back">
+                <img src="../media/Proyectos/Card.jpg" alt="Imagen ampliada del producto">
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="front">
+                <div class="detalles">
+                  
+                  <h6>Sistema de alerta Online a whatsapp aplicable a maquinaria</h6>
+                
+                </div>
+                <div class="imagen">
+                  <img src="../media/Proyectos/AlertasWhatsapp.jpg" alt="Imagen del producto">
+                </div>
+              </div>
+              <div class="back">
+                <img src="../media/Proyectos/AlertasWhatsapp.jpg" alt="Imagen ampliada del producto">
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="front">
+                <div class="detalles">
+                  
+                  <h6>Sistema de venta en producción</h6>
+                
+                </div>
+                <div class="imagen">
+                  <img src="../media/Proyectos/Sistema venta.jpg" alt="Imagen del producto">
+                </div>
+              </div>
+              <div class="back">
+                <img src="../media/Proyectos/Sistema venta.jpg" alt="Imagen ampliada del producto">
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="front">
+                <div class="detalles">
+                  
+                  <h6>Actualizaciones a pagina Web Stock - QR</h6>
+                
+                </div>
+                <div class="imagen">
+                  <img src="../media/Proyectos/Categoria+Edicion.jpg" alt="Imagen del producto">
+                </div>
+              </div>
+              <div class="back">
+                <img src="../media/Proyectos/Categoria+Edicion.jpg" alt="Imagen ampliada del producto">
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="front">
+                <div class="detalles">
+                  
+                  <h6>Sistema de alerta para descansos de 5 min cada hora al programar</h6>
+                
+                </div>
+                <div class="imagen">
+                  <img src="../media/Proyectos/Descanso.jpg" alt="Imagen del producto">
+                </div>
+              </div>
+              <div class="back">
+                <img src="../media/Proyectos/Descanso.jpg" alt="Imagen ampliada del producto">
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="front">
+                <div class="detalles">
+                  
+                  <h6>Transferencia de BD vieja a Nuevo sistema en PY</h6>
+                
+                </div>
+                <div class="imagen">
+                  <img src="../media/Proyectos/MershActualizacionBD.jpg" alt="Imagen del producto">
+                </div>
+              </div>
+              <div class="back">
+                <img src="../media/Proyectos/MershActualizacionBD.jpg" alt="Imagen ampliada del producto">
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="front">
+                <div class="detalles">
+                  
+                  <h6>Testeos de BD</h6>
+                
+                </div>
+                <div class="imagen">
+                  <img src="../media/Proyectos/TestBD.jpg" alt="Imagen del producto">
+                </div>
+              </div>
+              <div class="back">
+                <img src="../media/Proyectos/TestBD.jpg" alt="Imagen ampliada del producto">
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="front">
+                <div class="detalles">
+                  
+                  <h6>Desarrollo de Sistema de Gestion completo - Aporte 50%</h6>
+                
+                </div>
+                <div class="imagen">
+                  <img src="../media/Proyectos/50-SistemaGestionEmpresarial-Py.jpg" alt="Imagen del producto">
+                </div>
+              </div>
+              <div class="back">
+                <img src="../media/Proyectos/50-SistemaGestionEmpresarial-Py.jpg" alt="Imagen ampliada del producto">
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="front">
+                <div class="detalles">
+                  
+                  <h6>Lectura de variables en PLC Industrial - Muestra de datos en Pagina WEB</h6>
+                
+                </div>
+                <div class="imagen">
+                  <img src="../media/Proyectos/LecturaPlc.jpeg" alt="Imagen del producto">
+                </div>
+              </div>
+              <div class="back">
+                <img src="../media/Proyectos/LecturaPlc.jpeg" alt="Imagen ampliada del producto">
+              </div>
+            </div>
+
+          </div>
+          
+          
+
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <p class="centrado">&copy; Todos los derechos reservados, Kuspita Ramiro -&nbsp;<span id="año"></span>&nbsp;&#169
+    </p>
+  </footer>
+  <script src="../js/crypto-js.min.js"></script>
+  <script src="../js/FileSaver.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.5/FileSaver.min.js"></script>
+
+  <!-- Bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+
+
+
+  <script src="../js/codigo-obfuscated.js"> </script>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+  <!-- scripts particulas-->
+  <script src="../js/codigo-particulas.js"></script>
+  <script src="../js/codigo-app.js"></script>
+</body>
+
+</html>
